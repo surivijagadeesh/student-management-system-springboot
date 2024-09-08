@@ -1,8 +1,10 @@
 package com.sj.sms.entity;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
 @Entity
+@Data
 @Table(name = "students")
 public class Student {
 	
